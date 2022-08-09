@@ -18,16 +18,8 @@ You can install the development version of foo like so:
 
 ``` r
 remotes::install_github("denisecammarota/foo-package-R")
-#> Downloading GitHub repo denisecammarota/foo-package-R@HEAD
-#> * checking for file 'C:\Users\denis\AppData\Local\Temp\RtmpK6edBp\remotes44783d8a3848\denisecammarota-foo-package-R-7263046/DESCRIPTION' ... OK
-#> * preparing 'foo':
-#> * checking DESCRIPTION meta-information ... OK
-#> * checking for LF line-endings in source and make files and shell scripts
-#> * checking for empty or unneeded directories
-#> * building 'foo_0.0.0.9000.tar.gz'
-#> 
-#> Installing package into 'C:/Users/denis/AppData/Local/R/win-library/4.2'
-#> (as 'lib' is unspecified)
+#> Skipping install of 'foo' from a github remote, the SHA1 (f466a21f) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
 
 ## Example
