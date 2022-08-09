@@ -4,6 +4,8 @@
 # foo
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/denisecammarota/foo-package-R/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/denisecammarota/foo-package-R/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of foo is to exemplify the creation of an R package. In this
@@ -16,8 +18,16 @@ You can install the development version of foo like so:
 
 ``` r
 remotes::install_github("denisecammarota/foo-package-R")
-#> Skipping install of 'foo' from a github remote, the SHA1 (25ddd1d3) has not changed since last install.
-#>   Use `force = TRUE` to force installation
+#> Downloading GitHub repo denisecammarota/foo-package-R@HEAD
+#> * checking for file 'C:\Users\denis\AppData\Local\Temp\RtmpK6edBp\remotes44783d8a3848\denisecammarota-foo-package-R-7263046/DESCRIPTION' ... OK
+#> * preparing 'foo':
+#> * checking DESCRIPTION meta-information ... OK
+#> * checking for LF line-endings in source and make files and shell scripts
+#> * checking for empty or unneeded directories
+#> * building 'foo_0.0.0.9000.tar.gz'
+#> 
+#> Installing package into 'C:/Users/denis/AppData/Local/R/win-library/4.2'
+#> (as 'lib' is unspecified)
 ```
 
 ## Example
