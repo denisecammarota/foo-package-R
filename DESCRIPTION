@@ -12,5 +12,5 @@ RoxygenNote: 7.2.1
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://github.com/denisecammarota/foo-package-R
+URL: https://github.com/denisecammarota/foo-package-R, https://denisecammarota.github.io/foo-package-R/
 BugReports: https://github.com/denisecammarota/foo-package-R/issues
